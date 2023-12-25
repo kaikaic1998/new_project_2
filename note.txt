@@ -1,0 +1,4 @@
+GDAL install:
+pip install GDAL-3.4.3-cp311-cp311-win_amd64.whl
+https://www.lfd.uci.edu/~gohlke/pythonlibs/#gdal
+
