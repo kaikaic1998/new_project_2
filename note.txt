@@ -2,3 +2,5 @@ GDAL install:
 pip install GDAL-3.4.3-cp311-cp311-win_amd64.whl
 https://www.lfd.uci.edu/~gohlke/pythonlibs/#gdal
 
+Lang Sam install (requrie Python version between 3.8 and 3.11)
+pip install -U git+https://github.com/luca-medeiros/lang-segment-anything.git
