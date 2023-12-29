@@ -5,7 +5,11 @@ from PIL import Image
 
 from torchgeo.datasets import BigEarthNet
 import matplotlib.pyplot as plt
+from torch.utils.data import DataLoader
 
+import os
+
+# use when download torchgeo dataset
 import ssl
 ssl._create_default_https_context = ssl._create_unverified_context
 
@@ -25,6 +29,11 @@ def read_tif():
     print(jpeg_image)
 # read_tif()
 
-dataset = BigEarthNet(root='/tif/', bands='s2', download=True, checksum=True)
-print(dataset)
-# Try to load local dataset files directly using torchgeo dataloader?
+
+dataset = BigEarthNet(root='./dataset/', bands='s2', download=True, checksum=True)
+# dataloader = DataLoader(dataset, batch_size=1)
+# print(len(dataloader))
+
+# print(dataloader)
+
+print(len(dataset))
