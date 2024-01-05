@@ -2,7 +2,7 @@
 
 ## Current Progress
 
-Obtaining open source satellite image dataset
+Experimenting QGIS and rasterio
 
 ## Reference
 
