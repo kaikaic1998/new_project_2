@@ -1,4 +1,4 @@
-# xperiment Sam Geospatia
+# Experiment Sam Geospatia
 
 ## Current Progress
 
