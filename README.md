@@ -1,9 +1,5 @@
 # Experiment Sam Geospatia
 
-## Current Progress
-
-Experimenting QGIS and rasterio
-
 ## Reference
 
 ```
